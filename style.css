@@ -319,6 +319,225 @@ html, body {
 }
 
 
+#pagex1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#pagex1>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#center-pagex1 {
+    color: #ffffff;
+    font-weight: 700;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}  
+#center-pagex1>h1{
+    font-size: 55px;
+}
+#center-pagex1>h2{
+    font-size: 30px;
+}
+
+
+#pagex2{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.leftx2{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.leftx2>h1{
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+}
+.rightx2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    padding: 2vw;
+}
+.rightx2>h3{
+    font-size: 1.3vw;
+    width: 80%;
+    color: #6e6e73;
+}
+.rightx2>button{
+    padding: 15px 30px;
+    border: none;
+    background-color: #ff5900;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1.4vw;
+    margin-top: 5vw;
+}
+
+
+#pagex3 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#pagex3>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#center-pagex3 {
+    color: #ffffff;
+    font-weight: 700;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}  
+#center-pagex3>h1{
+    font-size: 55px;
+}
+#center-pagex3>h2{
+    font-size: 30px;
+}
+
+
+#pagex4{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.leftx4{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.leftx4>h1{
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+}
+.rightx4{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    padding: 2vw;
+}
+.rightx4>h3{
+    font-size: 1.3vw;
+    width: 80%;
+    color: #6e6e73;
+}
+.rightx4>button{
+    padding: 15px 30px;
+    border: none;
+    background-color: #ff5900;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1.4vw;
+    margin-top: 5vw;
+}
+
+
+#pagex5 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#pagex5>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#center-pagex5 {
+    color: #ffffff;
+    font-weight: 700;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}  
+#center-pagex5>h1{
+    font-size: 55px;
+}
+#center-pagex5>h2{
+    font-size: 30px;
+}
+
+
+#pagex6{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.leftx6{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.leftx6>h1{
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+}
+.rightx6{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    padding: 2vw;
+}
+.rightx6>h3{
+    font-size: 1.3vw;
+    width: 80%;
+    color: #6e6e73;
+}
+.rightx6>button{
+    padding: 15px 30px;
+    border: none;
+    background-color: #ff5900;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1.4vw;
+    margin-top: 5vw;
+}
+
+
 #page8{
     display: flex;
     align-items: center;
@@ -544,7 +763,7 @@ html, body {
 
 #page18 {
     position: relative;
-    height: 200vh;
+    height: 180vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -566,15 +785,15 @@ html, body {
 #page18>img {
     width: 70%;
     position: absolute;
-    bottom: 10%;
+    bottom: 0%;
 }
 #page18>button {
     position: absolute;
-    bottom: 15%;
-    margin: 10px 40px;
+    bottom: 9%;
+    margin: 5px 30px;
     left: 50%;
     transform: translateX(-50%);
-    padding: 15px 20px;
+    padding: 10px 20px;
     border: none;
     font-weight: 500;
     background-color: #ff5900;
@@ -582,6 +801,184 @@ html, body {
     font-weight: 600;
     border-radius: 50px;
     scale: 1.5;
+}
+
+
+#pagex7 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#pagex7>video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#center-pagex7 {
+    color: #ffffff;
+    font-weight: 700;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}  
+#center-pagex7>h1{
+    font-size: 55px;
+}
+#center-pagex7>h2{
+    font-size: 30px;
+}
+
+
+#pagex8{
+    display: flex;
+    position: relative;
+    height: 55vh;
+    width: 100vw;
+}
+.leftx8{
+    position: relative;
+    height: 100%;
+    width: 45%;
+}
+.leftx8>h1{
+    font-size: 2.1vw;
+    position: absolute;
+    left: 40%;
+    transform: translateX(-5%);
+    top: 25%;
+}
+.rightx8{
+    position: relative;
+    height: 100%;
+    width: 55%;
+}
+.rightx8>h3{
+    font-size: 1.4vw;
+    position: absolute;
+    right: 26%;
+    transform: translateX(-5%);
+    top: 25%;
+    color: #86868b;
+}
+
+#pagex9 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+.leftx9 {
+    height: 90%;
+    width: 45%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/scaling_ui__gosi0305um2y_large.jpg);
+    position: relative;
+}
+.rightx9 {
+    height: 90%;
+    width: 45%;
+    position: relative;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/spatial_interaction__br11mf88bzxy_large.jpg);
+}
+
+
+#pagex10{
+    display: flex;
+    position: relative;
+    height: 55vh;
+    width: 100vw;
+}
+.leftx10{
+    position: relative;
+    height: 100%;
+    width: 45%;
+}
+.leftx10>h1{
+    font-size: 2.1vw;
+    position: absolute;
+    left: 40%;
+    transform: translateX(-5%);
+    top: 25%;
+}
+.rightx10{
+    position: relative;
+    height: 100%;
+    width: 55%;
+}
+.rightx10>h3{
+    font-size: 1.4vw;
+    position: absolute;
+    right: 26%;
+    transform: translateX(-5%);
+    top: 25%;
+    color: #86868b;
+}
+
+
+#pagex11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#pagex11>#center-pagex11 {
+    height: 95%;
+    width: 95%;
+    position: relative;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/around_you__bfdlxkwczahe_large.jpg);
+}
+
+
+#pagex12{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.leftx12{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.leftx12>h1{
+    font-size: 2.3vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+}
+.rightx12{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    padding: 2vw;
+}
+.rightx12>h3{
+    font-size: 1.3vw;
+    width: 80%;
+    color: #6e6e73;
+}
+.rightx12>button{
+    padding: 15px 30px;
+    border: none;
+    background-color: #ff5900;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1.4vw;
+    margin-top: 5vw;
 }
 
 
@@ -650,11 +1047,16 @@ html, body {
     font-size: 1.5vw;
 }
 #page21>h5{
-    width: 35%;
+    width: 40%;
+    font-size: 1.3vw;
+    color: #86868b;
+}
+#page21>h5>span{
+    color: #fff;
 }
 #page21>h1 {
     margin-bottom: 3%;
-    font-size: 2.5vw;
+    font-size: 2.1vw;
 }
 
 
@@ -705,6 +1107,33 @@ html, body {
 }
 
 
+#pagex13{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 30vh;
+    width: 100vw;
+    background-color: #000;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#pagex13>h5{
+    width: 40%;
+    font-size: 1.3vw;
+    color: #86868b;
+}
+#pagex13>h5>span{
+    color: #fff;
+}
+#pagex13>h1 {
+    margin-bottom: 3%;
+    font-size: 2.1vw;
+}
+
+
 #page24{
     position: relative;
     height: 100vh;
@@ -728,15 +1157,80 @@ html, body {
 }
 
 
+#pagex14{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 33vh;
+    width: 100vw;
+    background-color: #000;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#pagex14>h5{
+    width: 40%;
+    font-size: 1.3vw;
+    color: #86868b;
+}
+#pagex14>h5>span{
+    color: #fff;
+}
+#pagex14>h1 {
+    margin-bottom: 3%;
+    font-size: 2.1vw;
+}
+
+
 #page25{
     position: relative;
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-color: #000;
 }
 #page25>img{
     height: 100%;
     width: 100%;
+    margin-top: 1%;
     object-fit: cover;
     opacity:0
+}
+
+
+#pagex15{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 75vh;
+    width: 100vw;
+    background-color: #000;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#pagex15>h5{
+    width: 40%;
+    font-size: 1.3vw;
+    color: #86868b;
+}
+#pagex15>h5>span{
+    color: #fff;
+}
+#pagex15>h1 {
+    top: 0%;
+    margin-bottom: 3%;
+    font-size: 2.1vw;
+}
+#pagex15>button{
+    position: absolute;
+    bottom: 20%;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    border-radius: 50px;
+    scale: 1.5;
 }
