@@ -138,6 +138,57 @@ tl4.to("#page6>#center-page6",{
     top:`-50%`
 })
 
+var tlx1 = gsap.timeline({
+  scrollTrigger:{
+      trigger:`#pagex1`,
+      start:`top top`,
+      scrub:1,
+      scroller:`#main`,
+      pin:true
+  }
+})
+tlx1.to("#pagex1>#center-pagex1",{
+  top:`-50%`
+})
+
+var tlx3 = gsap.timeline({
+  scrollTrigger:{
+      trigger:`#pagex3`,
+      start:`top top`,
+      scrub:1,
+      scroller:`#main`,
+      pin:true
+  }
+})
+tlx3.to("#pagex3>#center-pagex3",{
+  top:`-50%`
+})
+
+var tlx5 = gsap.timeline({
+  scrollTrigger:{
+      trigger:`#pagex5`,
+      start:`top top`,
+      scrub:1,
+      scroller:`#main`,
+      pin:true
+  }
+})
+tlx5.to("#pagex5>#center-pagex5",{
+  top:`-50%`
+})
+
+var tlx5 = gsap.timeline({
+  scrollTrigger:{
+      trigger:`#pagex7`,
+      start:`top top`,
+      scrub:1,
+      scroller:`#main`,
+      pin:true
+  }
+})
+tlx5.to("#pagex7>#center-pagex7",{
+  top:`-50%`
+})
 
 function canvas() {
     const canvas = document.querySelector("#page9>canvas");
@@ -534,11 +585,11 @@ function canvas1(){
   start: `top top`,
   end: `80% top`,
   });
-  }
-  canvas1();
+}
+canvas1();
 
 
-var tl3 = gsap.timeline({
+var tl5 = gsap.timeline({
   scrollTrigger:{
       trigger:`#page23`,
       start:`top top`,
@@ -547,11 +598,11 @@ var tl3 = gsap.timeline({
       pin:true
   }
 })
-tl3.to("#page23>#troff",{
+tl5.to("#page23>#troff",{
   opacity:0
 })
 
-var tl4 = gsap.timeline({
+var tl6 = gsap.timeline({
   scrollTrigger:{
       trigger:`#page24`,
       start:`top top`,
@@ -560,7 +611,7 @@ var tl4 = gsap.timeline({
       pin:true
   }
 })
-tl4.to("#page24>#snroff",{
+tl6.to("#page24>#snroff",{
   opacity:0
 })
 
@@ -575,4 +626,3 @@ gsap.to("#page25>img",{
   },
   opacity:1
 })
-  
